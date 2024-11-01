@@ -1,0 +1,112 @@
+.chatWindow .users,
+.chatWindow .chatbox {
+    display: inline-block;
+    vertical-align: top;
+    height: 330px;
+    padding: 0 8px;
+    position: relative
+}
+.chatWindow .users {
+    background: #6AAEEC;
+    color: white;
+    width: 25%;
+    padding: 10px 15px;
+    overflow-y: auto
+        height: 285px;
+}
+.chatWindow .chatbox {
+    color: black;
+    width: 70%
+}
+.chatWindow .chatbox .status {
+    background: #ABC8F8;
+    padding: 5px 15px
+}
+.chatWindow .chatbox .chat {
+
+    background: #fff
+}
+.chatWindow .chatbox .chat .msgs {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow-y: auto;
+    height: 285px
+}
+.chatWindow .chatbox #msgForm {
+    padding-top: 1.5px
+}
+.chatWindow .chatbox #msgFormWidget {
+    padding-top: 1.5px
+}
+
+.chatWindow .error {
+    color: red
+}
+.chatWindow .success {
+    color: green
+}
+.chatWindow .msgs .msg,
+.chat .users .user {
+    border-bottom: 1px solid black;
+    padding: 4px 10px;
+    white-space: pre-line;
+    word-break: break-word
+}
+.chat-outer{
+    margin-top:10px;
+    height:100%;
+    width: 100%;
+
+}
+.msgRow {
+    font-size: 12px;
+    font-weight: 600;
+}
+.msg-date{
+    font-size: 8px;
+    font-weight: normal;
+    color: #333;
+}
+.date-line {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.blue{
+
+    color:#6aaeec;
+
+}
+.red{
+    color:#ff0000;
+}
+body{
+    position: relative;
+    }
+#divfix {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    bottom: 5px;
+    padding: 6px 6px 4px 5px;
+    position: fixed;
+    right: 5px;
+    z-index: 3000;
+    width: 280px;
+}
+.dn{
+    display: none;
+}
+.popupWindow .chatbox {
+    display: unset !important;
+    width: 100% !important;
+}
+.alg-left{
+    text-align: left;
+}
+.alg-right{
+    text-align: right;
+}
